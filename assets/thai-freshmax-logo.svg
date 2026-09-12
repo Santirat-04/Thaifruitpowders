@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 180" width="120" height="180">
+  <!-- Mango shape -->
+  <ellipse cx="60" cy="90" rx="35" ry="45" fill="#C4A876" opacity="0.9"/>
+  
+  <!-- Leaf -->
+  <g transform="translate(60, 35) rotate(-25)">
+    <!-- Leaf background -->
+    <ellipse cx="0" cy="0" rx="22" ry="28" fill="#2D5F3F" transform="rotate(0)"/>
+    
+    <!-- Leaf highlight/vein -->
+    <path d="M -5 -20 Q 0 -15 5 -10 Q 8 0 5 10 Q 0 18 -5 20" 
+          fill="#4A9D6F" stroke="none"/>
+    
+    <!-- Center vein -->
+    <line x1="0" y1="-28" x2="0" y2="28" stroke="#2D5F3F" stroke-width="1.5" opacity="0.3"/>
+  </g>
+  
+  <!-- Text: Thai Freshmax -->
+  <text x="60" y="155" font-family="'Playfair Display', serif" font-size="18" font-weight="700" 
+        text-anchor="middle" fill="#2D5F3F" letter-spacing="0.5">
+    Thai Freshmax
+  </text>
+</svg>
